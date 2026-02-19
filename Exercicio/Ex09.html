@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: rgb(40, 77, 196);
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      h1 {
+        color: #000;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        color: #ffffff;
+      }
+
+      .forms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 15px;
+        max-width: 50%;
+        background-color: #d39102fb;
+        border-radius: 10px;
+        padding: 15px;
+        box-shadow: 1px 1px 10px 3px #dfdfd3;
+      }
+
+      input {
+        width: 100%;
+        padding: 8px;
+        border-radius: 10px;
+        border: 1.5px solid #ccc;
+        outline: none;
+      }
+      .ijr {
+        font-family: "Times New Roman", Times, serif;
+        font-weight: bold;
+      }
+
+      .btn {
+        width: 100%;
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2px;
+      }
+
+      .btn input {
+        width: 60%;
+        color: #ffffff;
+        background-color: #f8cb04;
+        font-size: 1.1em;
+        cursor: right;
+      }
+
+      .btn input:hover {
+        background-color: #1505f7;
+        transition: 0.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>LOGIN</h1>
+
+    <form action="#" method="get" class="forms">
+      <h2>Entre com seus dados de acesso</h2>
+      <label class="ijr" for="Usuario"> Usuário</label>
+      <input type="text" name="" id="Usuario" required />
+      <label class="ijr" for="Senha">Senha </label>
+      <input type="password" name="" id="Senha" required />
+
+      <div class="btn">
+        <input type="reset" value="APAGAR" />
+
+        <input type="submit" value="ENVIAR" />
+      </div>
+    </form>
+  </body>
+</html>

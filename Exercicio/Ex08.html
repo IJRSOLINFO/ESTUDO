@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> EXEMPLO</title>
+
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box
+    }
+    body { background-color: rgb(40, 77, 196);
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       min-height: 100vh;  
+    }
+    h2{
+        color: #ffffff;
+    }
+    .forms {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 15px;
+       max-width: 50%; 
+       background-color: #d39102fb;
+       border-radius: 10px;
+       padding: 20px;
+       box-shadow: 1px 1px 10px 3px #dfdfd3;
+
+    }
+    input {
+        width: 85%;
+        padding: 8px;
+        border-radius: 20px;
+        border: 1.5px solid #ccc;
+        outline: none;
+    }
+    .btn {
+        width: 85%;
+       
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        border-radius: 3px;
+    }
+    .btn input {
+        width: 60%;
+         color: #ffffff;
+        background-color: #f8cb04;
+        font-size: 1.1em;
+        cursor: pointer;
+    }
+    .btn input:hover {
+        background-color: #1505f7;
+        transition: .5s;
+    }
+   
+</style>
+
+</head>
+<body>
+    
+    <form action="#" method="get" class="forms">
+        <h2> PREENCHA O FORMULARIO</h2>
+        <input type="text" name="" id="" placeholder="NOME">
+
+        <input type="email" name="" id="" placeholder="E-MAIL" required>
+
+        <input type="password" name="" id="" placeholder="SENHA" required>
+
+        <div class="btn"> 
+            <input type="submit" value="ENVIAR">
+        </div>
+
+
+    </form>
+</body>
+</html>
