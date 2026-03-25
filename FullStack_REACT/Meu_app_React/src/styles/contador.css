@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+:root {
+  --pipoca: rgb(247, 222, 3);
+  --picole: #f07a0b;
+}
+.pag_contador {
+  background-color: #96b89b;
+  color: #f5f3f3;
+  display: inline-flexbox;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+h3 {
+  color: var(--picole);
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: oblique ;
+}
+div {
+  padding: 5px;
+}
+button {
+  padding: 5px;
+}

@@ -1,3 +1,4 @@
+import '../styles/contador.css'
 import { useState } from "react"
 
 function Contador (){
@@ -12,10 +13,10 @@ function diminuir (){
     setContador (contador-1)
 }
     return(
-        <div>
+        <div className="pag_contador">
             <h1>Contador</h1>
 
-                <h2>{contador}</h2>
+                <h3>{contador}</h3>
 
             <div> 
                 <button onClick={aumentar}> + </button>
@@ -27,6 +28,7 @@ function diminuir (){
 }
 
 export default Contador;
+
 
 
 
