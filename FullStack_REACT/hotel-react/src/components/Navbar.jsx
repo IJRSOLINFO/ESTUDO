@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 // useEffect é um hook que permite gerência dos efeitos colateraias.
 //useState é a mudança de estado. Uma Alteração de estado da página. Inserção de dados.
 import { FaHotel } from "react-icons/fa";
+import "../styles/Navbar.css";
 
 export default function Navbar() {
   const [scroll, setScroll] = useState(false);

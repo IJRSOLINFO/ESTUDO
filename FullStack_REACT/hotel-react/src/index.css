@@ -1,0 +1,28 @@
+/* Esse é o estilo global; */
+/* Os demais são estilos por components*/
+/*! CSS GLOBAL*/
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Oswald:wght@200..700&display=swap");
+
+/* TODO: Criação de Variáveis*/
+:root {
+  --text-color: #fcfbfbfd;
+}
+
+/* *# Reset do CSS*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f172a;
+  color: var(--text-color);
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
