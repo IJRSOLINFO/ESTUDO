@@ -1,5 +1,5 @@
 //* Componente NAVBAR
-
+import {Link} from "react-router-dom"
 import { useState, useEffect } from "react";
 // useEffect é um hook que permite gerência dos efeitos colateraias.
 //useState é a mudança de estado. Uma Alteração de estado da página. Inserção de dados.
@@ -37,6 +37,9 @@ export default function Navbar() {
         <li onClick={() => scrollToSection("sobre")}>Sobre</li>
         <li onClick={() => scrollToSection("cards")}>Quartos</li>
         <li onClick={() => scrollToSection("suporte")}>Suporte</li>
+        <li>< Link to="/Reserve"> Reserve </Link>
+        
+        </li>
       </ul>
     </nav>
   );

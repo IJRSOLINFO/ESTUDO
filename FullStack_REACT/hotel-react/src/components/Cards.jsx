@@ -6,6 +6,7 @@ export default function Cards() {
     <section id="cards" className="cards">
       <h2> Quartos</h2>
         <div className="card-container">
+           
             <div className="card card1">
                 <div className="overlay">
                     <FaWifi className="icon" />
@@ -29,6 +30,7 @@ export default function Cards() {
                     <p> Incluso em todas as diárias </p>
                 </div>
             </div>
+            
       </div>
     </section>
   );
